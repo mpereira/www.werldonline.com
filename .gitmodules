@@ -1,3 +1,3 @@
 [submodule "vendor/werld-client-browser"]
 	path = vendor/werld-client-browser
-	url = git@github.com:mpereira/werld-client-browser.git
+	url = git://github.com/mpereira/werld-client-browser.git
