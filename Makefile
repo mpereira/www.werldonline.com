@@ -28,6 +28,6 @@ build_werld_client_browser:
 build:
 	@$(CP) $(WERLD_CLIENT_BROWSER_ASSETS_FILES_AND_DIRECTORIES_PATHS) $(WERLD_CLIENT_BROWSER_BUILD_FILES_AND_DIRECTORIES_PATHS) .
 
-deploy: pull_git_modules build_werld_client_browser build
-	-@git add $(WERLD_CLIENT_BROWSER_ASSETS_FILES_AND_DIRECTORIES) $(WERLD_CLIENT_BROWSER_BUILD_FILES_AND_DIRECTORIES) && git commit -m "Update."
+deploy: build_werld_client_browser build
+	-@git add $(WERLD_CLIENT_BROWSER_ASSETS_FILES_AND_DIRECTORIES) $(WERLD_CLIENT_BROWSER_BUILD_FILES_AND_DIRECTORIES) $(WERLD_CLIENT_BROWSER_PATH) && git commit -m "$(shell git rev-parse HEAD)"
 	@git push origin gh-pages
