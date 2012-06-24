@@ -1,4 +1,4 @@
-// werld-client-browser - v0.0.0 - 2012-06-17
+// werld-client-browser - v0.0.0 - 2012-06-24
 // http://www.werldonline.com
 // Copyright (c) 2012  Murilo Pereira <murilo@murilopereira.com>.
 // All rights reserved.
