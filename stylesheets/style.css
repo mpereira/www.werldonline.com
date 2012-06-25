@@ -1,4 +1,5 @@
-@font-face{font-family:'PowellAntique';src:url('../webfonts/PowellAntique-webfont.eot');src:url('../webfonts/PowellAntique-webfont.eot?#iefix') format('embedded-opentype'),url('../webfonts/PowellAntique-webfont.woff') format('woff'),url('../webfonts/PowellAntique-webfont.ttf') format('truetype'),url('../webfonts/PowellAntique-webfont.svg#PowellAntique') format('svg');font-weight:normal;font-style:normal;}*{-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}
+@font-face{font-family:'PowellAntique';src:url('../webfonts/PowellAntique-webfont.eot');src:url('../webfonts/PowellAntique-webfont.eot?#iefix') format('embedded-opentype'),url('../webfonts/PowellAntique-webfont.woff') format('woff'),url('../webfonts/PowellAntique-webfont.ttf') format('truetype'),url('../webfonts/PowellAntique-webfont.svg#PowellAntique') format('svg');font-weight:normal;font-style:normal;}.unselectable{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;}
+*{-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}
 body{background-color:#100800;color:#dc9a44;font-family:'PowellAntique',Arial,sans-serif;}
 #footer{text-align:center;}#footer #social-media{display:inline-block;text-align:center;list-style:none;}#footer #social-media li{display:inline-block;}
 #footer #social-media .button{display:inline-block;height:24px;width:24px;margin-bottom:-0.4em;}
@@ -6,7 +7,7 @@ body{background-color:#100800;color:#dc9a44;font-family:'PowellAntique',Arial,sa
 #footer #social-media #twitter{background-image:url('../images/twitter.png');}
 #footer p{display:inline-block;margin:0;}
 #footer a{color:#dc9a44;text-decoration:none;font-weight:bold;}
-#canvas-wrapper{text-align:center;margin:2em 0;}
+#canvas-wrapper{text-align:center;margin:2em 0;}#canvas-wrapper canvas{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;}
 #message-input-form-wrapper,#character-name-input-form-wrapper{text-align:center;}
 #message-input-form input,#character-name-input-form-wrapper input{width:624px;background-color:#1b1207;color:#dc9a44;border-radius:5px;border-color:#1b1207;padding:0.5em;font-family:'PowellAntique',Arial,sans-serif;font-size:1.2em;}
 #message-input-form input:focus,#character-name-input-form-wrapper input:focus{outline:none;}
